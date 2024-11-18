@@ -2,7 +2,10 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+
 from imutils.video import VideoStream
 
 
@@ -62,7 +65,12 @@ def main():
             people_detected = set()
             person_detected = collections.Counter()
 
-            cap  = VideoStream(src=0).start()
+            #cap  = VideoStream(src=0).start()
+            if args.path == 0:
+                cap = VideoStream(src=0).start()
+            else:
+                cap = cv2.VideoCapture(args.path)
+
 
             while (True):
                 frame = cap.read()
