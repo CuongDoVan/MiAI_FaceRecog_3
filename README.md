@@ -9,7 +9,7 @@ Article link: http://miai.vn/2019/09/11/face-recog-2-0-nhan-dien-khuon-mat-trong
 - cdv_env\Scripts\activate
 
 # Cài đặt requirements
-- python.exe -m pip install --upgrade pip
+- python -m pip install --upgrade pip
 - pip install -r requirements.txt
 
 # Cắt khuôn mặt để dùng train
