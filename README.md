@@ -5,8 +5,8 @@ Chạy trên Tensorflow 2.x
 Article link: http://miai.vn/2019/09/11/face-recog-2-0-nhan-dien-khuon-mat-trong-video-bang-mtcnn-va-facenet/
 
 # Tạo môi trường làm việc vào cdv_env
-python -m venv E:\FaceRecognizer\MiAI_FaceRecog_3\cdv_env
-E:\FaceRecognizer\MiAI_FaceRecog_3\cdv_env\Scripts\activate
+*python -m venv E:\FaceRecognizer\MiAI_FaceRecog_3\cdv_env
+*E:\FaceRecognizer\MiAI_FaceRecog_3\cdv_env\Scripts\activate
 
 # Cài đặt requirements
 python.exe -m pip install --upgrade pip
