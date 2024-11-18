@@ -9,8 +9,8 @@ Article link: http://miai.vn/2019/09/11/face-recog-2-0-nhan-dien-khuon-mat-trong
 - E:\FaceRecognizer\MiAI_FaceRecog_3\cdv_env\Scripts\activate
 
 # Cài đặt requirements
-python.exe -m pip install --upgrade pip
-pip install -r requirements.txt
+- python.exe -m pip install --upgrade pip
+- pip install -r requirements.txt
 
 # Cắt khuôn mặt để dùng train
 python src/align_dataset_mtcnn.py  Dataset/FaceData/raw Dataset/FaceData/processed --image_size 160 --margin 32  --random_order --gpu_memory_fraction 0.25
